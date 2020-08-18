@@ -1,4 +1,6 @@
-# COVID Twitter Vaccine NLP & KMeans Clustering: Project Overview
+# COVID Twitter Vaccine NLP & KMeans Clustering 
+
+## Project Overview
 
 The purpose of this project is to gain insight on how people felt about a COVID-19 vaccine from the dates March 15, 2020 to May 15, 2020, a two month period. Thus, you can say this is a **Sentiment Analysis**. 
 

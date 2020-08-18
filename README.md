@@ -74,17 +74,21 @@ Own Implementation:
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/own_kmeans.JPG "Class Implementation of KMeans Algorithm")
 
 Sci-Kit Learn Implementation:
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/sklearn_kmeans.JPG "SKLearn Implementation of KMeans Algorithm")
 
 I then investigated using different clustering algorithms on the data to see if any method grouped the data differently. I used:
 
 - Mini-Batch KMeans
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/mini_batch_kmeans.JPG "Mini-Batch KMeans Clustering")
 
 - Spectral
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/spectral.JPG "Spectral Clustering")
 
 - Gaussian Mixture Models
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian.JPG "Gaussian Mixture Models Clustering")
 
 Out of all of these, GMM grouped the data points differently than KMeans, giving more weight to the left-most cluster.
@@ -106,7 +110,11 @@ Gaussian Antivax Cluster:
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian antivax.JPG "Gaussian antivax")
 
 Cluster Feature Plots:
+
 **KMeans**
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/kmeans_dfs.JPG "KMeans feat plot")
+
 **Gaussian Miture Models**
+
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian_dfs.JPG "GMM feat plot")

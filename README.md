@@ -1,4 +1,4 @@
-# COVID Twitter Vaccine NLP & KMeans Clustering 
+# COVID Twitter Vaccine NLP & Clustering 
 
 ## Project Overview
 

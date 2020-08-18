@@ -67,4 +67,46 @@ Found that top 20 most frequent words in data set included antivaxxer, coronavir
 
 ## Model Building 
 
-- To be continued...
+First I created a KMeans class to developt a deeper understanding of how the algorithms work, and then used both the class and the sklearn equivalent to group the tweets by KMeans. The resulting graphs are basically the same except for different color coding.
+
+Own Implementation:
+
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/own_kmeans.JPG "Class Implementation of KMeans Algorithm")
+
+Sci-Kit Learn Implementation:
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/sklearn_kmeans.JPG "SKLearn Implementation of KMeans Algorithm")
+
+I then investigated using different clustering algorithms on the data to see if any method grouped the data differently. I used:
+
+- Mini-Batch KMeans
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/mini_batch_kmeans.JPG "Mini-Batch KMeans Clustering")
+
+- Spectral
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/spectral.JPG "Spectral Clustering")
+
+- Gaussian Mixture Models
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian.JPG "Gaussian Mixture Models Clustering")
+
+Out of all of these, GMM grouped the data points differently than KMeans, giving more weight to the left-most cluster.
+
+## Model Analysis
+
+I used the **Elbow Method** to determine if the optimal number of clusters to use which came out to be **3.** The optimal number is determined from where the elbow **bends**.
+
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/elbow.JPG "Elbow Method")
+
+I then visualized the 3 clusters into separate graphs to view which terms each cluster consists of. The clusters that both KMeans and Gaussian generated were divided by "pro", "vaccine", and "antivax" terms, with the antivax cluster having the most significant different in term distribution.
+
+KMeans Antivax Cluster:
+
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/kmeans antivax.JPG "KMeans antivax")
+
+Gaussian Antivax Cluster:
+
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian antivax.JPG "Gaussian antivax")
+
+Cluster Feature Plots:
+**KMeans**
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/kmeans_dfs.JPG "KMeans feat plot")
+**Gaussian Miture Models**
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian_dfs.JPG "GMM feat plot")

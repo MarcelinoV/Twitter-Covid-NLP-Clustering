@@ -11,9 +11,13 @@ Credits to **Daniel Foley** from *Towards Data Science* on Medium for the articl
 ## Code and Resources Used
 
 **Python Version**: 3.6
+
 **Packages**: TwitterScraper, nltk, pandas, numpy, matplotlib, seaborn, sklearn, datetime, re, string
+
 **TwitterScraper Page**: https://github.com/taspinar/twitterscraper
+
 **K-Means Clustering: Making Sense of Text Data Using Unsupervised Learning**: https://towardsdatascience.com/k-means-clustering-8e1e64c1561c
+
 **Text Data Cleaning in Python | How to clean text data in python**: https://www.youtube.com/watch?v=KhXU7KOxQcg&t=4s
 
 ## Data Collection
@@ -60,3 +64,7 @@ After collecting the data, I cleaned up the text data through NLP/text processin
 Found that top 20 most frequent words in data set included antivaxxer, coronavirus, flu, vaccination, and other words. Also found tha both pro and antivax were on average found in about **11.5%** of our tweets with a near identical standard deviation, and terms like coronavirus and covid19 were on average found in about **21-22%** of the dataset.
 
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/top_feats_desc.JPG "Descriptive Stats of Top 20 Words")
+
+## Model Building 
+
+- To be continued...

@@ -103,11 +103,11 @@ I then visualized the 3 clusters into separate graphs to view which terms each c
 
 KMeans Antivax Cluster:
 
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/kmeans_ antivax.JPG "KMeans antivax")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/kmeans_antivax.JPG "KMeans antivax")
 
 Gaussian Antivax Cluster:
 
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian_ antivax.JPG "Gaussian antivax")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/gaussian_antivax.JPG "Gaussian antivax")
 
 Cluster Feature Plots:
 
